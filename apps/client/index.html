@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colyseus + Phaser Example</title>
+    <style>
+        /* Remove default margin and center the game canvas */
+        body {
+            margin: 0;
+            background: #222;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Phaser will create a <canvas> element inside this div -->
+    <div id="game-container"></div>
+    <!-- Load our game code -->
+    <script type="module" src="src/main.ts"></script>
+</body>
+
+</html>
